@@ -1,0 +1,17 @@
+ 1.Uradjeno je  ste sto je trazeno datom spiralom
+2.Nista(neke forme su validirane tj vecina,ali nakon sto sam saznao da s validacija forme 
+radi za sljedecu spiralu ,nisam dalje validirao.
+3.Bugova nema osim sljedece situacije
+U formama ukoliko se unese username i password submit button bi trebalo da pokrece odredjenu akciju
+,no kako se to nije radilo browser izbacuje da je doslo do problema.Posto to ne znam
+ispraviti moze se desiti  da tu dodje do problema,dok sam za neke forme stavio 
+samo alert ukoliko je dobro unesena forma.
+Takodjer vrlo malo je vjerovatno(prilikom testiranja nisam uocio) da ce neki element "iskociti"
+iz parent diva.To sam sprijecio koristeci visinu i sirinu atribute kao i word-wrap: break-word
+4.Bug prilikom slanja forme ,ukoliko je validna trebala bi se pokrenuti asp akcija no to nismo radili
+5.Nalazi se gomila slika javascript file js u kom se nalazi vecina funkcija i slj 5 podstranica
+Home-Pocetna stranica agencije za nekretnine
+Ponuda-nekretnine koje su trenutno dostupne
+Kontakt-kontakt agencije
+Register-registrovanje na sajt 
+Informacije-podaci o agenciji
