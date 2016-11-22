@@ -1,0 +1,23 @@
+Uradjeno je sljedece
+1)Sve sto se trazi(kod svih formi osim logina ako nije validno ispunjeno polje
+odgovarajuca labela se zacrveni i ispise se na kraju forme da su bile greske.Kod logina 
+se samo ispise da je greska(tu sam samo provjeravao da nisu prazna polja,a kod svih ostalih
+formi odgovarajucim regexom npr ime treba biti duze od 1 slova kod broja telefona samo se 
+smiju unosit brojevi i / i 5 i slicno.)
+2)Uradjeni su
+1.dropdown meni kod prijave tj kad se otvori vrsi se izbor izmedju logina i registera
+2.koristeci localstorage cuva se posljednji unos sa svake forme(moguce da ne radi na nekim 
+browserima ja sam testirao na chromeu i mozzili,nisam imao vremena da stavim odgovarajucu provjeru za  verziju svih browsera )
+3.napravljen je carousel u html stranici informacije
+3)Koristen je ajax i zadatak je uradjen do kraja testiran na mozzili i chromeu radi
+Moguce je da je neki manji dio cssa mozda poravnanje nekog paragrafa  ili slicno ostao u htmlu.
+Takodjer uglavnom sav js je izdvojen u fajl osim dijelova sa modalom(prozor koji iskace 
+prilikom klika na Login) ,nemam vremena  da to ispravljam.
+Fajl se sastoji od slj elemenata
+puno slika
+home-pocetna stranica
+registracija-registracija
+Ponuda-opis ponude
+Kontakt-kontakt
+O nama-O firmi
+java skript fajl u kom su izdvojene skoro sve funkcije
