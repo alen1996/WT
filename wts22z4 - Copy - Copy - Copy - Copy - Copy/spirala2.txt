@@ -6,7 +6,7 @@ formi odgovarajucim regexom npr ime treba biti duze od 1 slova kod broja telefon
 smiju unosit brojevi i / i 5 i slicno.)
 2)Uradjeni su
 1.dropdown meni kod prijave tj kad se otvori vrsi se izbor izmedju logina i registera
-2.koristeci localstorage cuva se posljednji unos sa svake forme(moguce da ne radi na nekim 
+2.koristeci localstorage cuva se posljednji unos sa svake forme klikom na dugme submit odgovarajuce forme(moguce da ne radi na nekim 
 browserima ja sam testirao na chromeu i mozzili,nisam imao vremena da stavim odgovarajucu provjeru za  verziju svih browsera )
 3.napravljen je carousel u html stranici informacije
 3)Koristen je ajax i zadatak je uradjen do kraja testiran na mozzili i chromeu radi
