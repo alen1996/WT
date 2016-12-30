@@ -33,3 +33,4 @@ kako ne bi doslo do xss napada
 OPenshift file
 http://ade-assdds.44fs.preview.openshiftapps.com/
 Na openshiftu sam uploadovao ovaj repositorij https://github.com/alen1996/ness koji je isti kao i ovdje spirala3prava samo sto sam obrisao html fajlove da bi mogao uploadati na openshift
+Moguce j e da se pojavi bug ukoliko se u polje pretraga unosi puno praznih spaceova mada mislim da sam rijesio taj problem
