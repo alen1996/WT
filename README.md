@@ -30,7 +30,7 @@ u direktorij staviti cijenu koja mora biti broj i kratak opis koji moze biti bil
 I pdf file i csv file se skidaju s Home.php 
 zadnji desni oblacic  s tim sto csv samo admin moze skinuti.Takodjer zastita od xssa je postignuta na sljedeci nacin
 da ne bih morao to da radim za svaku varijablu pojedinacno kada se salje forma na istu stranicu na kojoj se i nalazi koristio sam
-<form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
+<f orm  action="<?p h p ec ho htmlspecialchars($_SERVE R["PHP_SE LF"]);?>" method="post">
 kako ne bi doslo do xss napada
 OPenshift file
 http://ade-assdds.44fs.preview.openshiftapps.com/
