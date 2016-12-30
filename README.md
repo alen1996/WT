@@ -23,9 +23,11 @@ fajl nekretine.xml.Ukoliko zeli da updateuje postojece nekretnine dovoljno j e d
 podatke u nekom od textboxova ili broj koji predstavlja cijenu.Za brisanje se unosi id
 odgovarajuce nekretnine,a za dodavanje se popune 3 prazna polja i klikne na dodaj.
 Takodjer da bi se nova nekretnina dodala u fajl nekretnine.xml  mora da bude odgovarajuca
-slika u odgovarajucem direktorijumu.Tako npr ako probamo dodati ili upadteovati neku nekretninu
+slika u  direktorijumu.Tako npr ako probamo dodati ili upadteovati neku nekretninu
 a pritom unesemo u textbox slika neki file koji ne postoji dolazi do greske i sistem nas
-obavjestava da nije doslo ni do kakvih promjena.I pdf file i csv file se skidaju s Home.php 
+obavjestava da nije doslo ni do kakvih promjena.Dakle ako zelimo dodati novu nekretninu prvo moramo staviti odgovarajucu sliku
+u direktorij staviti cijenu koja mora biti broj i kratak opis koji moze biti bilo sta
+I pdf file i csv file se skidaju s Home.php 
 zadnji desni oblacic  s tim sto csv samo admin moze skinuti.Takodjer zastita od xssa je postignuta na sljedeci nacin
 da ne bih morao to da radim za svaku varijablu pojedinacno kada se salje forma na istu stranicu na kojoj se i nalazi koristio sam
 <form  action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
